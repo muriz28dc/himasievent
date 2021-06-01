@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himasi_Event</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Aos Animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- Fontawesome 5.15.3 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- JS -->
+    <script src="himasi.js"></script>
+  </head>
+  <body>
+    <!-- Menu -->
+    <header>
+      <div class="menu">
+        <nav class="navigasi">
+          <img src="https://himasi.ftki.unas.ac.id/wp-content/uploads/2020/08/HIMASI-1024x1024.png" alt="" /><span class="himasi">HIMASI EVENT</span>
+          <ul>
+            <li><a href="">Event</a></li>
+            <li><a href="">Merchandise</a></li>
+            <li><a href="">QnA</a></li>
+            <li><a href="">Contact</a></li>
+            <div class="search-box">
+              <input type="search" name="" class="search-txt" placeholder="Cari Event" />
+              <div class="search-btn">
+                <i class="fas fa-search"></i>
+              </div>
+            </div>
+          </ul>
+          <div class="menu-toggle"></div>
+        </nav>
+      </div>
+      <div class="menu-bawah">
+        <div class="warna-1">
+          <div class="warna-2">
+            <span>NFO DISINI</span>
+            <div class="logo-menu-bawah">
+              <i class="fas fa-info-circle fs-7"></i>
+            </div>
+          </div>
+        </div>
+        <div class="marquee">
+          <marquee behavior="" direction="" scrollamount="15" onmouseover="this.stop()" onmouseout="this.start()"
+            >Selamat Datang Di Website HIMASI Event. Website ini dikelola oleh Himpunan Mahasiswa Sistem Informasi Universitas Nasional untuk menunjang penyelenggaraan event selama periode berlangsung..<span></span>
+            <img src="https://himasi.ftki.unas.ac.id/wp-content/uploads/2020/08/HIMASI-1024x1024.png" alt="" /><span></span>Divisi LitBang<span></span>
+            <img src="https://himasi.ftki.unas.ac.id/wp-content/uploads/2020/08/HIMASI-1024x1024.png" alt="" /><span></span>Muhamad Rizki</marquee
+          >
+        </div>
+      </div>
+      <!-- Carousel -->
+      <div class="carousel-container">
+        <div class="carousel">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img src="https://www.unas.ac.id/wp-content/uploads/2019/11/Foto-bersama-perayaan-Dies-Natalis-FEB-ke-55-667x445.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-md-block">
+                  <h5 class="fs-2">Acara UNAS</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem veniam nisi quas iure ducimus laudantium nemo! Nesciunt aliquid vero, obcaecati saepe explicabo officia, maxime exercitationem placeat provident dicta
+                    minima tempora!
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://kemsos.go.id/uploads/topics/15901122715063.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-md-block">
+                  <h5 class="fs-2">Acara Berbagi Kedua</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, rerum necessitatibus consequuntur praesentium eaque distinctio quia illum sit quo quisquam dolorem officia ratione cupiditate voluptatibus asperiores
+                    expedita cumque repellendus voluptas ad velit maxime! Eius at assumenda expedita accusantium cumque quaerat commodi quasi nesciunt, optio dolores.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="https://img.beritasatu.com/cache/investor/798x449-2/1587581374.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-md-block">
+                  <h5 class="fs-2">Acara Berbagi Ketiga</h5>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt odio magnam unde provident, tenetur doloremque!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- akhir Carousel -->
+    </header>
+    <div class="social">
+      <ul>
+        <li>
+          <a href="#email" class="email_a" style="font-size: 33px; margin-left: 0px"><i class="far fa-envelope email all_social"></i></a>
+        </li>
+        <li>
+          <a href="#line" class="line_a" style="font-size: 36px; margin-left: 3px"><i class="fab fa-line line all_social"></i></a>
+        </li>
+        <li>
+          <a href="#youtube" class="yt_a" style="font-size: 31px; margin-left: -2px"><i class="fab fa-youtube yt all_social"></i></a>
+        </li>
+        <li>
+          <a href="#instagram" class="ig_a" style="font-size: 35px; margin-left: 4px"><i class="fab fa-instagram ig all_social"></i></a>
+        </li>
+      </ul>
+    </div>
+    <!-- Akhir Menu -->
+    <div class="main">
+      <!-- Page -->
+      <div class="container page">
+        <div class="row">
+          <div class="col box-grid" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="400">
+            <div class="grid-text">
+              <span>6</span> <br />
+              Events
+            </div>
+          </div>
+          <div class="col box-grid" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="400">
+            <div class="grid-text">
+              <span> 10060</span> <br />
+              Visitors
+            </div>
+          </div>
+          <div class="col box-grid" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="400">
+            <div class="grid-text">
+              <span>1054</span> <br />
+              Participants
+            </div>
+          </div>
+          <div class="col box-grid" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="400">
+            <div class="grid-text">
+              <span> 1</span> <br />
+              Merchandise
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Page -->
+
+      <!-- Awal Events Terbaru -->
+      <div class="container">
+        <div class="animasi-logo-events">
+          <i class="far fa-calendar-alt logo"></i>
+          <div class="logo-events">
+            <h1><span>Ev</span>ent Ter<span>baru</span></h1>
+          </div>
+        </div>
+        <div class="events-box">
+          <!-- box 1 -->
+          <div class="events-box-all box-1">
+            <img srcset="" src="https://jadwalevent.web.id/wp-content/uploads/2021/01/SDBI.jpg" alt="" class="lazyload" />
+            <div class="tombol-bawah">
+              <h1>Workshop Digital Marketing</h1>
+              <div class="menu-toggle-down" onclick="atas_1()">
+                <i class="fas fa-chevron-circle-down"></i>
+              </div>
+              <p>Selengkapnya</p>
+            </div>
+            <div class="balik-bawah" id="tombol_1">
+              <h1>CommCreation</h1>
+              <div class="balik-info">
+                <p class="free">Gratis</p>
+                <p class="paid">Berbayar</p>
+                <p class="done">Selesai</p>
+              </div>
+              <div class="tombol-tanggal">
+                <p><i class="far fa-calendar-alt logo-tanggal"></i> 9 Desember 2021</p>
+                <p><i class="far fa-clock logo-tanggal"></i>08:00 Wib</p>
+                <p><i class="fas fa-map-marker-alt logo-tanggal"></i> Jakarta Selatan</p>
+              </div>
+              <div class="menu-toggle-up" onclick="bawah_1()">
+                <i class="fas fa-chevron-circle-up"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Box 2 -->
+          <div class="events-box-all box-2">
+            <img srcset="" src="https://jadwalevent.web.id/wp-content/uploads/2020/08/Poster-UXFTB4-Paling-Baru.jpg" alt="" class="lazyload" />
+            <div class="tombol-bawah">
+              <h1>UX Fundamental Training</h1>
+              <div class="menu-toggle-down" onclick="atas_2()">
+                <i class="fas fa-chevron-circle-down"></i>
+              </div>
+              <p>Selengkapnya</p>
+            </div>
+            <div class="balik-bawah" id="tombol_2">
+              <h1>UX Fundamental</h1>
+              <div class="balik-info">
+                <p class="free">Gratis</p>
+                <p class="paid">Berbayar</p>
+                <p class="done">Selesai</p>
+              </div>
+              <div class="tombol-tanggal">
+                <p><i class="far fa-calendar-alt logo-tanggal"></i> 9 Desember 2021</p>
+                <p><i class="far fa-clock logo-tanggal"></i>08:00 Wib</p>
+                <p><i class="fas fa-map-marker-alt logo-tanggal"></i> Jakarta Selatan</p>
+              </div>
+              <div class="menu-toggle-up" onclick="bawah_2()">
+                <i class="fas fa-chevron-circle-up"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Box 3 -->
+          <div class="events-box-all box-3">
+            <img srcset="" src="https://www.bakrie.ac.id/images/2016/element/commcreation-full.jpg" alt="" class="lazyload" />
+            <div class="tombol-bawah">
+              <h1>CommCreation</h1>
+              <div class="menu-toggle-down" onclick="atas_3()">
+                <i class="fas fa-chevron-circle-down"></i>
+              </div>
+              <p>Selengkapnya</p>
+            </div>
+            <div class="balik-bawah" id="tombol_3">
+              <h1>CommCreation</h1>
+              <div class="balik-info">
+                <p class="free">Gratis</p>
+                <p class="paid">Berbayar</p>
+                <p class="done">Selesai</p>
+              </div>
+              <div class="tombol-tanggal">
+                <p><i class="far fa-calendar-alt logo-tanggal"></i> 9 Desember 2021</p>
+                <p><i class="far fa-clock logo-tanggal"></i>08:00 Wib</p>
+                <p><i class="fas fa-map-marker-alt logo-tanggal"></i> Jakarta Selatan</p>
+              </div>
+              <div class="menu-toggle-up" onclick="bawah_3()">
+                <i class="fas fa-chevron-circle-up"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Events Terbaru -->
+
+      <!-- Awal Events Kami -->
+      <div class="containerr">
+        <div class="animasi-logo-events events-kami">
+          <i class="far fa-calendar-alt logo"></i>
+          <div class="logo-events">
+            <h1><span>Ev</span>ent Ka<span>mi</span></h1>
+          </div>
+        </div>
+        <div class="events-box">
+          <!-- box 1 -->
+          <div class="events-box-all box-1">
+            <img srcset="" src="https://jadwalevent.web.id/wp-content/uploads/2021/01/SDBI.jpg" alt="" class="lazyload" />
+            <div class="tombol-bawah">
+              <h1>Workshop Digital Marketing</h1>
+              <div class="menu-toggle-down" onclick="atas_11()">
+                <i class="fas fa-chevron-circle-down"></i>
+              </div>
+              <p>Selengkapnya</p>
+            </div>
+            <div class="balik-bawah" id="tombol_11">
+              <h1>CommCreation</h1>
+              <div class="balik-info">
+                <p class="free">Gratis</p>
+                <p class="paid">Berbayar</p>
+                <p class="done">Selesai</p>
+              </div>
+              <div class="tombol-tanggal">
+                <p><i class="far fa-calendar-alt logo-tanggal"></i> 9 Desember 2021</p>
+                <p><i class="far fa-clock logo-tanggal"></i>08:00 Wib</p>
+                <p><i class="fas fa-map-marker-alt logo-tanggal"></i> Jakarta Selatan</p>
+              </div>
+              <div class="menu-toggle-up" onclick="bawah_11()">
+                <i class="fas fa-chevron-circle-up"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Box 2 -->
+          <div class="events-box-all box-2">
+            <img srcset="" src="https://jadwalevent.web.id/wp-content/uploads/2020/08/Poster-UXFTB4-Paling-Baru.jpg" alt="" class="lazyload" />
+            <div class="tombol-bawah">
+              <h1>UX Fundamental Training</h1>
+              <div class="menu-toggle-down" onclick="atas_22()">
+                <i class="fas fa-chevron-circle-down"></i>
+              </div>
+              <p>Selengkapnya</p>
+            </div>
+            <div class="balik-bawah" id="tombol_22">
+              <h1>UX Fundamental</h1>
+              <div class="balik-info">
+                <p class="free">Gratis</p>
+                <p class="paid">Berbayar</p>
+                <p class="done">Selesai</p>
+              </div>
+              <div class="tombol-tanggal">
+                <p><i class="far fa-calendar-alt logo-tanggal"></i> 9 Desember 2021</p>
+                <p><i class="far fa-clock logo-tanggal"></i>08:00 Wib</p>
+                <p><i class="fas fa-map-marker-alt logo-tanggal"></i> Jakarta Selatan</p>
+              </div>
+              <div class="menu-toggle-up" onclick="bawah_22()">
+                <i class="fas fa-chevron-circle-up"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Box 3 -->
+          <div class="events-box-all box-3">
+            <img srcset="" src="https://www.bakrie.ac.id/images/2016/element/commcreation-full.jpg" alt="" class="lazyload" />
+            <div class="tombol-bawah">
+              <h1>CommCreation</h1>
+              <div class="menu-toggle-down" onclick="atas_33()">
+                <i class="fas fa-chevron-circle-down"></i>
+              </div>
+              <p>Selengkapnya</p>
+            </div>
+            <div class="balik-bawah" id="tombol_33">
+              <h1>CommCreation</h1>
+              <div class="balik-info">
+                <p class="free">Gratis</p>
+                <p class="paid">Berbayar</p>
+                <p class="done">Selesai</p>
+              </div>
+              <div class="tombol-tanggal">
+                <p><i class="far fa-calendar-alt logo-tanggal"></i> 9 Desember 2021</p>
+                <p><i class="far fa-clock logo-tanggal"></i>08:00 Wib</p>
+                <p><i class="fas fa-map-marker-alt logo-tanggal"></i> Jakarta Selatan</p>
+              </div>
+              <div class="menu-toggle-up" onclick="bawah_33()">
+                <i class="fas fa-chevron-circle-up"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Box 4 -->
+          <div class="events-box-all box-4">
+            <img srcset="" src="https://www.bakrie.ac.id/images/2016/element/commcreation-full.jpg" alt="" class="lazyload" />
+            <div class="tombol-bawah">
+              <h1>CommCreation</h1>
+              <div class="menu-toggle-down" onclick="atas_44()">
+                <i class="fas fa-chevron-circle-down"></i>
+              </div>
+              <p>Selengkapnya</p>
+            </div>
+            <div class="balik-bawah" id="tombol_44">
+              <h1>CommCreation</h1>
+              <div class="balik-info">
+                <p class="free">Gratis</p>
+                <p class="paid">Berbayar</p>
+                <p class="done">Selesai</p>
+              </div>
+              <div class="tombol-tanggal">
+                <p><i class="far fa-calendar-alt logo-tanggal"></i> 9 Desember 2021</p>
+                <p><i class="far fa-clock logo-tanggal"></i>08:00 Wib</p>
+                <p><i class="fas fa-map-marker-alt logo-tanggal"></i> Jakarta Selatan</p>
+              </div>
+              <div class="menu-toggle-up" onclick="bawah_44()">
+                <i class="fas fa-chevron-circle-up"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Box 5 -->
+          <div class="events-box-all box-5">
+            <img srcset="" src="https://www.bakrie.ac.id/images/2016/element/commcreation-full.jpg" alt="" class="lazyload" />
+            <div class="tombol-bawah">
+              <h1>CommCreation</h1>
+              <div class="menu-toggle-down" onclick="atas_55()">
+                <i class="fas fa-chevron-circle-down"></i>
+              </div>
+              <p>Selengkapnya</p>
+            </div>
+            <div class="balik-bawah" id="tombol_55">
+              <h1>CommCreation</h1>
+              <div class="balik-info">
+                <p class="free">Gratis</p>
+                <p class="paid">Berbayar</p>
+                <p class="done">Selesai</p>
+              </div>
+              <div class="tombol-tanggal">
+                <p><i class="far fa-calendar-alt logo-tanggal"></i> 9 Desember 2021</p>
+                <p><i class="far fa-clock logo-tanggal"></i>08:00 Wib</p>
+                <p><i class="fas fa-map-marker-alt logo-tanggal"></i> Jakarta Selatan</p>
+              </div>
+              <div class="menu-toggle-up" onclick="bawah_55()">
+                <i class="fas fa-chevron-circle-up"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Akhir Events Kami -->
+    </div>
+
+    <!-- Merchandise -->
+    <div class="container-merchandise">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ac202e"
+          fill-opacity="1"
+          d="M0,96L40,90.7C80,82,160,75,240,96C320,117,400,171,480,160C560,149,640,75,720,64C800,53,880,107,960,154.7C1040,203,1120,245,1200,245.3C1280,245,1360,203,1400,181.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+      <div class="merchandise-background">
+        <div class="merchandise-box">
+          <div class="animasi-logo-events" data-aos="slide-up" data-aos-easing="linear" data-aos-duration="400">
+            <i class="fas fa-shopping-bag logo"></i>
+            <div class="logo-events">
+              <h1 style="font-weight: 400"><span>Mer</span>chan Di<span>se</span></h1>
+            </div>
+          </div>
+          <div class="merchandise-grid">
+            <!-- Merchandise 1 -->
+            <div class="merchandise-box1 merchandise-box-all">
+              <div class="box1-gambar">
+                <img src="https://himasi.ftki.unas.ac.id/events/assets/img/merchandise/pdl.jpeg" alt="" />
+              </div>
+              <div class="box1-text">
+                <div class="box1-text-info">
+                  <div class="box1-text-info-atas">
+                    <h1>PDL HIMASI</h1>
+                    <p class="baju">Baju</p>
+                    <p class="sold">Habis</p>
+                    <h2 class="harga"><i class="fas fa-money-bill-wave" style="padding-right: 15px"></i>Rp.150K</h2>
+                  </div>
+                  <div class="box1-text-deskripsi">
+                    <p>Include : <span> 1 PDL , 1 Masker , dan 2 Stiker</span></p>
+                  </div>
+                </div>
+                <div class="box1-btn">
+                  <button type="button" class="box1-btn-pesan">
+                    <a href="#" style="text-decoration: none; color: black; font-weight: bold"><i class="fab fa-whatsapp wa"></i>Pesan Now</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Akhir Merchandise 1 -->
+            <!-- Merchandise 2 -->
+            <div class="merchandise-box1 merchandise-box-all">
+              <div class="box1-gambar">
+                <img src="https://himasi.ftki.unas.ac.id/events/assets/img/merchandise/pdl.jpeg" alt="" />
+              </div>
+              <div class="box1-text">
+                <div class="box1-text-info">
+                  <div class="box1-text-info-atas">
+                    <h1>PDL HIMASI</h1>
+                    <p class="baju">Baju</p>
+                    <p class="sold">Habis</p>
+                    <h2 class="harga"><i class="fas fa-money-bill-wave" style="padding-right: 15px"></i>Rp.150K</h2>
+                  </div>
+                  <div class="box1-text-deskripsi">
+                    <p>Include : <span> 1 PDL , 1 Masker , dan 2 Stiker</span></p>
+                  </div>
+                </div>
+                <div class="box1-btn">
+                  <button type="button" class="box1-btn-pesan">
+                    <a href="#" style="text-decoration: none; color: black; font-weight: bold"><i class="fab fa-whatsapp wa"></i>Pesan Now</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Akhir Merchandise 2 -->
+            <!-- Merchandise 3 -->
+            <div class="merchandise-box1 merchandise-box-all">
+              <div class="box1-gambar">
+                <img src="https://himasi.ftki.unas.ac.id/events/assets/img/merchandise/pdl.jpeg" alt="" />
+              </div>
+              <div class="box1-text">
+                <div class="box1-text-info">
+                  <div class="box1-text-info-atas">
+                    <h1>PDL HIMASI</h1>
+                    <p class="baju">Baju</p>
+                    <p class="sold">Habis</p>
+                    <h2 class="harga"><i class="fas fa-money-bill-wave" style="padding-right: 15px"></i>Rp.150K</h2>
+                  </div>
+                  <div class="box1-text-deskripsi">
+                    <p>Include : <span> 1 PDL , 1 Masker , dan 2 Stiker</span></p>
+                  </div>
+                </div>
+                <div class="box1-btn">
+                  <button type="button" class="box1-btn-pesan">
+                    <a href="#" style="text-decoration: none; color: black; font-weight: bold"><i class="fab fa-whatsapp wa"></i>Pesan Now</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- Akhir Merchandise 3 -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Merchandise -->
+
+    <!-- Parallax & QnA-->
+    <div class="container-parallax">
+      <div class="parallax-box">
+        <div class="parallax-box-text">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item bg-transparent">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bagaimana Cara Mendaftar Event di Website Event Himasi ?</button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul type="square">
+                    <li>Pilih Event Terlebih Dahulu</li>
+                    <li>Pilih Kategori Tiket Yang Diinginkan</li>
+                    <li>Klik Tombol Pesan Tiket</li>
+                    <li>Masukkan Data Diri Dengan Benar</li>
+                    <li>Untuk Event Berbayar - Upload Bukti Pembayaran Dalam Format ( jpeg, png )</li>
+                    <li>Mohon Tunggu Beberapa Saat - Konfirmasi Pemesanan Akan Terkirim Via Email</li>
+                    <li>Done</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-transparent">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Apa Metode Pembayaran Yang Tersedia di Website Event Himasi ?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul type="square">
+                    <li>Kami hanya menerima metode pembayaran Via Transfer Bank</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-transparent">
+              <h2 class="accordion-header" id="headingFourth">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">Bagaimana Cara Mendapatkan Sertifikat ?</button>
+              </h2>
+              <div id="collapseFourth" class="accordion-collapse collapse" aria-labelledby="headingFourth" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul type="square">
+                    <li>Untuk event yang menyediakan E-Sertifikat dapat diunduh di halaman event dalam waktu 30 Hari setelah acara berlangsung.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-transparent">
+              <h2 class="accordion-header" id="headingFifth">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
+                  Bagaimana saya bisa mendapatkan bukti pemesanan tiket ?
+                </button>
+              </h2>
+              <div id="collapseFifth" class="accordion-collapse collapse" aria-labelledby="headingFifth" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul type="square">
+                    <li>Bukti pemesanan akan dikirimkan melalui email peserta</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-transparent">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Apakah ada batas waktu untuk pemesanan atau transaksi di Website Event Himasi ?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul type="square">
+                    <li>Proses pemesanan tiket di website ini memiliki batas waktu 1 Jam per transaksi. Jika melewati batas waktu pemesanan akan dimulai dari awal kembali.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="transform: rotateX(180deg)">
+        <path
+          fill="#ac202e"
+          fill-opacity="1"
+          d="M0,96L40,90.7C80,82,160,75,240,96C320,117,400,171,480,160C560,149,640,75,720,64C800,53,880,107,960,154.7C1040,203,1120,245,1200,245.3C1280,245,1360,203,1400,181.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+    <!-- Akhir Parallax 7 QnA-->
+
+    <!-- Awal Contact Us -->
+    <div class="container-contact">
+      <div class="contact">
+        <div class="contact-top">
+          <h1 data-aos="slide-down" data-aos-easing="linear" data-aos-duration="400">Contact Us</h1>
+          <p>Himasi Unas Merupakan Himpunan Sitem Informasi ....</p>
+        </div>
+        <div class="contact-main">
+          <div class="col-md-6 contact-left">
+            <h3>Feedback</h3>
+            <form>
+              <input type="text" placeholder="Name" required="" />
+              <input type="text" placeholder="Email" required="" />
+              <textarea placeholder="Message" required=""></textarea>
+              <a href="mailto:#"><input type="submit" value="send" /></a>
+            </form>
+          </div>
+          <div class="contact-right-map">
+            <div class="container-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15863.480329512016!2d106.8393729!3d-6.2808052!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4bc144c3140a2d9!2sUniversitas%20Nasional!5e0!3m2!1sid!2sid!4v1622131277942!5m2!1sid!2sid"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Contact Us -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-footer">
+        <div class="footer-flex">
+          <div class="footer-text-box1 footer-text-box-all">
+            <h1>Informasi</h1>
+            <ul>
+              <li>
+                <a href="#"><i class="far fa-envelope footer-medsos"></i>himasiunas@gmail.com</a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram footer-medsos"></i>Himasi.unas1949</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-university footer-medsos"></i>Universitas Nasional</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right footer-medsos"></i>Fakultas Teknologi Komunikasi dan Informatika</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right footer-medsos"></i>Sistem Informasi</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-text-box2 footer-text-box-all">
+            <h1>Layanan</h1>
+            <ul>
+              <li>
+                <a href="#"><i class="fas fa-globe footer-medsos"></i>Website Pemilu Himasi</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right footer-medsos"></i>Website Portal Himasi</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right footer-medsos"></i>Website FTKI</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-chevron-right footer-medsos"></i>Website UNAS</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-text-box3 footer-text-box-all">
+            <h1 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="400">Himpunan Mahasiswa Sistem Informasi</h1>
+            <img src="https://himasi.ftki.unas.ac.id/wp-content/uploads/2020/06/cropped-LOGO-SI-632x632-150x150-1.png" alt="Logo Himasi" />
+            <p>Website ini dikelola oleh Himpunan Mahasiswa Sistem Informasi untuk menunjang penyelenggaraan event dan penjualan merchandise selama periode berlangsung.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-box">
+        <div class="footer-bottom-container">
+          <div class="footer-bottom-mobile">
+            <div class="footer-bottom-box-left">Copyright &copy; HIMASI <span>- Divisi Litbang 2021/2022</span></div>
+            <div class="footer-bottom-box-right">
+              <ul>
+                <li>
+                  <a href="#"><i class="far fa-envelope" title="Email Himasi"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-line" title="Line Himasi"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube" title="Youtube Himasi"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram" title="Instagram Himasi"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Scroll-up -->
+    <a href="#" id="scroll-up" class="scroll-up-top"><i class="fas fa-angle-up"></i></a>
+
+    <!-- Script Events Terbaru -->
+    <script>
+      var putar_1 = document.getElementById('tombol_1');
+      var putar_2 = document.getElementById('tombol_2');
+      var putar_3 = document.getElementById('tombol_3');
+      var putar_4 = document.getElementById('tombol_4');
+
+      function atas_1() {
+        putar_1.style.height = '466px';
+        putar_1.style.fontSize = '16px';
+        putar_1.style.visibility = 'visible';
+      }
+      function bawah_1() {
+        putar_1.style.height = '0';
+        putar_1.style.fontSize = '0';
+        putar_1.style.visibility = 'hidden';
+      }
+      function atas_2() {
+        putar_2.style.height = '466px';
+        putar_2.style.fontSize = '16px';
+        putar_2.style.visibility = 'visible';
+      }
+      function bawah_2() {
+        putar_2.style.height = '0';
+        putar_2.style.fontSize = '0';
+        putar_2.style.visibility = 'hidden';
+      }
+      function atas_3() {
+        putar_3.style.height = '466px';
+        putar_3.style.fontSize = '16px';
+        putar_3.style.visibility = 'visible';
+      }
+      function bawah_3() {
+        putar_3.style.height = '0';
+        putar_3.style.fontSize = '0';
+        putar_3.style.visibility = 'hidden';
+      }
+    </script>
+
+    <!-- Script Events Kami -->
+    <script>
+      var putar_11 = document.getElementById('tombol_11');
+      var putar_22 = document.getElementById('tombol_22');
+      var putar_33 = document.getElementById('tombol_33');
+      var putar_44 = document.getElementById('tombol_44');
+      var putar_55 = document.getElementById('tombol_55');
+
+      function atas_11() {
+        putar_11.style.height = '466px';
+        putar_11.style.fontSize = '16px';
+        putar_11.style.visibility = 'visible';
+      }
+      function bawah_11() {
+        putar_11.style.height = '0';
+        putar_11.style.fontSize = '0';
+        putar_11.style.visibility = 'hidden';
+      }
+      function atas_22() {
+        putar_22.style.height = '466px';
+        putar_22.style.fontSize = '16px';
+        putar_22.style.visibility = 'visible';
+      }
+      function bawah_22() {
+        putar_22.style.height = '0';
+        putar_22.style.fontSize = '0';
+        putar_22.style.visibility = 'hidden';
+      }
+      function atas_33() {
+        putar_33.style.height = '466px';
+        putar_33.style.fontSize = '16px';
+        putar_33.style.visibility = 'visible';
+      }
+      function bawah_33() {
+        putar_33.style.height = '0';
+        putar_33.style.fontSize = '0';
+        putar_33.style.visibility = 'hidden';
+      }
+      function atas_44() {
+        putar_44.style.height = '466px';
+        putar_44.style.fontSize = '16px';
+        putar_44.style.visibility = 'visible';
+      }
+      function bawah_44() {
+        putar_44.style.height = '0';
+        putar_44.style.fontSize = '0';
+        putar_44.style.visibility = 'hidden';
+      }
+      function atas_55() {
+        putar_55.style.height = '466px';
+        putar_55.style.fontSize = '16px';
+        putar_55.style.visibility = 'visible';
+      }
+      function bawah_55() {
+        putar_55.style.height = '0';
+        putar_55.style.fontSize = '0';
+        putar_55.style.visibility = 'hidden';
+      }
+    </script>
+
+    <!-- Aos CDN JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Bundel Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- Plugin/library Lazy Loading For reduce img -->
+    <script src="lazysizes.min.js" async></script>
+    <!-- Akhir Lazy Loading -->
+  </body>
+</html>
