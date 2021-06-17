@@ -18,10 +18,12 @@ $(window).scroll(function () {
 
   if (z >= 480) {
     $('.logo-events h1').css('background-color', '#ac202e');
+    $('.logo-events h1').css('color', 'white');
     $('.logo-events span').css('color', 'white');
     $('.social').css('visibility', 'visible');
   } else if (z >= 0) {
     $('.logo-events h1').css('background-color', 'white');
+    $('.logo-events h1').css('color', '#ac202e');
     $('.logo-events span').css('color', '#ac202e');
   } else {
   }

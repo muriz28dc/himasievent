@@ -143,52 +143,6 @@ header {
   height: 31px;
   background: rgba(0, 0, 0, 0.8);
 }
-.warna-1 {
-  position: relative;
-  background: var(--color-himasi);
-  width: 160px;
-  z-index: 10;
-}
-.warna-2 {
-  background: var(--color-himasi);
-  height: 100%;
-  width: 150px;
-  position: relative;
-  left: 145px;
-  border-radius: 40px;
-}
-.warna-2 > span {
-  animation: info 3s infinite alternate;
-}
-.logo-menu-bawah .fas {
-  animation: info 3s infinite alternate;
-}
-@keyframes info {
-  0% {
-    color: yellow;
-  }
-  50% {
-    color: var(--color-himasi);
-  }
-  100% {
-    color: white;
-  }
-}
-.warna-2 span {
-  position: absolute;
-  left: 30px;
-  top: 6px;
-  font-size: 15px;
-  font-weight: 600;
-  color: white;
-}
-.logo-menu-bawah {
-  position: relative;
-}
-.logo-menu-bawah .fas {
-  font-size: 28px;
-  color: white;
-}
 .marquee {
   font-size: 15px;
   position: absolute;
@@ -300,12 +254,14 @@ header {
   margin: auto;
   box-shadow: 0 0 20px 0 black;
   width: 250px;
+  color: var(--color-himasi);
   transition: 0.5s;
 }
 .logo-events span {
   color: var(--color-himasi);
 }
 .logo-events h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 35px;
 }
 .animasi-logo-events .logo {
@@ -314,6 +270,7 @@ header {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  color: white;
   transition: 0.5s;
 }
 .animasi-logo-events:hover > .logo {
