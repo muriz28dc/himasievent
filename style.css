@@ -270,8 +270,11 @@ header {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  color: white;
+  color: var(--color-himasi);
   transition: 0.5s;
+}
+.animasi-logo-events .logos {
+  color: white;
 }
 .animasi-logo-events:hover > .logo {
   position: relative;
@@ -978,10 +981,6 @@ footer {
     left: 1%;
     font-size: 19px;
   }
-  /* Menu Bawah */
-  .warna-2 {
-    left: 60%;
-  }
   /* Awal Events Terbaru */
   .events-box {
     display: flex;
@@ -1092,6 +1091,9 @@ footer {
   .navigasi span {
     font-size: 15px;
   }
+  .carousel-caption p {
+    font-size: 1.8vw;
+  }
   /* Page */
   .page {
     position: relative;
@@ -1182,10 +1184,6 @@ footer {
     content: '\f00d';
     font-size: 38px;
   }
-  /* Menu Bawah */
-  .warna-2 {
-    left: 25%;
-  }
   /* Akhir Menu */
   /* Awal Social Media */
   .social {
@@ -1208,6 +1206,10 @@ footer {
     display: none;
   }
   /* Akhir Social Media */
+  .carousel-caption p {
+    opacity: 0.5;
+    font-size: 2vw;
+  }
   .events-box {
     display: flex;
     flex-wrap: wrap;
@@ -1230,6 +1232,7 @@ footer {
   .balik-bawah {
     width: 100%;
   }
+  /* Akhir Page */
   /* Awal Scroll Up */
   #scroll-up {
     width: 30px;
@@ -1259,18 +1262,6 @@ footer {
 }
 /* Smartphone Kecil */
 @media screen and (max-width: 450px) {
-  /* Menu Bawah */
-  .warna-1 {
-    left: -10%;
-  }
-  .warna-2 {
-    left: 50%;
-    width: 80%;
-  }
-  .warna-2 span {
-    font-size: 15px;
-  }
-  /* Akhir Menu */
   /* Awal Social Media */
   .social ul li a {
     line-height: 50px;
@@ -1357,17 +1348,6 @@ footer {
 }
 /* Smartphone Lebih Kecil */
 @media screen and (max-width: 340px) {
-  .warna-1 {
-    left: -18%;
-  }
-  .warna-2 {
-    left: 50%;
-    width: 60%;
-  }
-  .warna-2 span {
-    font-size: 10px;
-    line-height: 17px;
-  }
   /* Awal Social */
   .social ul li a {
     line-height: 50px;
