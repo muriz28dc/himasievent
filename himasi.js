@@ -53,7 +53,7 @@ $(window).scroll(function () {
 
 $(document).ready(function () {
   $('.menu-toggle').click(function () {
-    $('nav ul').toggleClass('active');
+    $('nav ul li.b').toggleClass('active');
     $(this).toggleClass('active');
   });
 });
